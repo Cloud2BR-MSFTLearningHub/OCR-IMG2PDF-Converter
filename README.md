@@ -71,7 +71,7 @@ Format support still depends on the browser runtime for some edge cases. The app
 
 <!-- START BADGE -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1580-limegreen" alt="Total views">
-  <p>Refresh Date: 2026-02-25</p>
+  <img src="https://img.shields.io/badge/Total%20views-187-limegreen" alt="Total views">
+  <p>Refresh Date: 2026-04-06</p>
 </div>
 <!-- END BADGE -->
