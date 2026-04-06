@@ -3,16 +3,16 @@
 Atlanta, USA
 
 [![GitHub](https://img.shields.io/badge/--181717?logo=github&logoColor=ffffff)](https://github.com/)
-[brown9804](https://github.com/brown9804)
+[Cloud2BR OSS - Learning Hub](https://github.com/Cloud2BR-MSFTLearningHub)
 
-Last updated: 2026-03-25
+Last updated: 2026-04-06
 
 ----------
 
 > Static demo app for GitHub Pages that lets users upload photos and convert them into black-and-white scan PDF documents entirely in the browser.
 
 > [!NOTE]
-> [This demo](https://microsoftcloudessentials-learninghub.github.io/SecureNoStore-IMG2PDF/) is designed so image processing and PDF creation happen in the browser runtime. GitHub Pages only serves the static assets; it does not receive uploaded image data from the app.
+> [This demo](https://cloud2br-msftlearninghub.github.io/SecureNoStore-IMG2PDF/) is designed so image processing and PDF creation happen in the browser runtime. GitHub Pages only serves the static assets; it does not receive uploaded image data from the app.
 
 <img width="2102" height="3088" alt="image" src="https://github.com/user-attachments/assets/2dcb56d7-6eb6-4556-886e-5699b288e0fa" />
 
@@ -71,7 +71,7 @@ Format support still depends on the browser runtime for some edge cases. The app
 
 <!-- START BADGE -->
 <div align="center">
-  <img src="https://img.shields.io/badge/Total%20views-1580-limegreen" alt="Total views">
-  <p>Refresh Date: 2026-02-25</p>
+  <img src="https://img.shields.io/badge/Total%20views-187-limegreen" alt="Total views">
+  <p>Refresh Date: 2026-04-06</p>
 </div>
 <!-- END BADGE -->
