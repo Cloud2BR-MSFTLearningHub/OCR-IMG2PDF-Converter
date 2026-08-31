@@ -11,80 +11,39 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css?v=20260326-6" />
+    <link rel="stylesheet" href="./styles.css?v=20260831-1" />
   </head>
   <body>
+    <header class="site-header">
+      <div class="site-header-inner">
+        <a class="brand-link" href="https://github.com/Cloud2BR" target="_blank" rel="noopener noreferrer" aria-label="Cloud2BR on GitHub">
+          <img src="https://avatars.githubusercontent.com/u/265654976?v=4" alt="" />
+          <span>Cloud2BR</span>
+        </a>
+        <nav class="site-nav" aria-label="Project links">
+          <a href="https://github.com/Cloud2BR/OCR-IMG2PDF-Converter" target="_blank" rel="noopener noreferrer">Repository</a>
+          <a class="owner-link" href="https://github.com/brown9804" target="_blank" rel="noopener noreferrer">
+            <img src="https://github.com/brown9804.png?size=80" alt="" />
+            <span>brown9804</span>
+          </a>
+        </nav>
+      </div>
+    </header>
+
     <div class="page-shell">
-      <header class="hero">
-        <div class="hero-main">
-          <div class="hero-copy">
-            <p class="eyebrow">GitHub Pages Demo</p>
-            <h1>Turn photos into clean PDF documents right in your browser.</h1>
-            <p class="lede">
-              Add receipts, forms, notes, or whiteboard photos and get a ready-to-download PDF in seconds.
-              Everything happens on your device, so the process stays simple, private, and easy to understand.
-            </p>
-            <ul class="trust-list" aria-label="Privacy guarantees">
-              <li>
-                <strong>Your files stay on your device</strong>
-                <span>Your images are not sent to a server.</span>
-              </li>
-              <li>
-                <strong>Nothing is saved by this site</strong>
-                <span>When you close the page, your files are gone from the app.</span>
-              </li>
-              <li>
-                <strong>No account needed</strong>
-                <span>Open the page, add your images, and download the PDF.</span>
-              </li>
-            </ul>
-          </div>
+      <header class="tool-intro">
+        <div>
+          <p class="eyebrow">Private browser workspace</p>
+          <h1>Image to PDF converter</h1>
+          <p class="lede">Turn photos, receipts, forms, and notes into clean PDF documents without uploading them.</p>
         </div>
-
-        <div class="hero-rail">
-          <aside class="identity-card founder-card" aria-label="Owner and founder">
-            <p class="card-label">Owner/Founder</p>
-            <div class="identity-row identity-row-founder">
-              <img
-                class="identity-avatar"
-                src="https://github.com/brown9804.png?size=160"
-                alt="Portrait of Timna Brown"
-                loading="lazy"
-              />
-              <div class="identity-links identity-links-founder" aria-label="Founder profile links">
-                <a href="https://github.com/brown9804" target="_blank" rel="noopener noreferrer">@brown9804</a>
-                <a href="https://www.linkedin.com/in/timna-b-939492161/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
-              </div>
-            </div>
-          </aside>
-
-          <aside class="identity-card org-card" aria-label="Organization identity">
-            <p class="card-label">Organization</p>
-            <div class="identity-rail">
-              <img
-                class="identity-avatar identity-avatar-org"
-                src="https://github.com/Cloud2BR-MSFTLearningHub.png?size=256"
-                alt="Cloud2BR Open Source Microsoft Cloud Sandbox - Learning Hub organization icon"
-                loading="lazy"
-              />
-              <a class="identity-org-link" href="https://github.com/Cloud2BR-MSFTLearningHub" target="_blank" rel="noopener noreferrer">Cloud2BR Open Source Microsoft Cloud Sandbox - Learning Hub</a>
-            </div>
-            <p class="identity-note">Cloud2BR Open Source Microsoft Cloud Sandbox - Learning Hub. Community demos, learning assets, and lightweight browser tools.</p>
-          </aside>
-
-          <aside class="hero-card" aria-label="How it works">
-            <p class="card-label">Local processing</p>
-            <ol>
-              <li>Choose one or more images.</li>
-              <li>Tune the black-and-white scan look.</li>
-              <li>Download a multi-page PDF.</li>
-            </ol>
-            <p class="card-note">All processing happens on-device using canvas and client-side PDF generation.</p>
-          </aside>
-        </div>
+        <span class="privacy-mark" aria-label="Files are processed locally">
+          <span class="privacy-icon" aria-hidden="true">&#10003;</span>
+          Local only
+        </span>
       </header>
 
       <main class="workspace">
@@ -496,6 +455,6 @@
     <script src="https://cdn.jsdelivr.net/npm/tesseract.js@5/dist/tesseract.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/utif@3.1.0/UTIF.min.js"></script>
     <script async src="https://docs.opencv.org/4.x/opencv.js"></script>
-    <script src="./app.js?v=20260326-6" defer></script>
+    <script src="./app.js?v=20260831-1" defer></script>
   </body>
 </html>
